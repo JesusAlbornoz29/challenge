@@ -1,0 +1,685 @@
+/* Variables */
+:root{
+    --rojo-brillante: rgb(242, 95, 58);
+    --azul-oscuro: rgb(35, 44, 81);
+    --azul-grisaceo-oscuro: rgb(143, 148, 167);
+    --azul-muy-oscuro: rgb(29, 30, 37);
+    --rojo-muy-palido: rgb(255, 239, 234);
+    --variante-gris-claro: rgb(249, 249, 249);
+}
+
+/* Reset de estilos */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/*Estilos Comunes*/
+
+.mainTop1{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.button{
+    padding: 15px 35px;
+    border-radius: 40px;
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+.borange{
+    background-color: var(--rojo-brillante);
+    color: white;
+}
+
+.bwithe{
+    background-color: white;
+    color: var(--rojo-brillante);
+}
+
+
+
+/* Estilos Generales */
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 25px;
+}
+
+header img{
+    width: 35%;
+    height: 100%;
+}
+
+.nav{
+    display: none;
+}
+
+.borange1 {
+    display: none;
+}
+
+.menu-hamburguesa {
+    width: 100px;
+    position: relative;
+    left: 10%;
+}
+
+
+/*main*/
+
+.mainTop1{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.mainTop1-cont1{
+    text-align: center;
+}
+
+.mainTop1-cont1 h1{
+    font-size: 2.1rem;
+    color: var(--azul-oscuro);
+    font-weight: 700;
+}
+
+.mainTop1-cont1 p {
+    color: var(--azul-grisaceo-oscuro);
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 2;
+    margin: 25px;
+}
+
+.mainTop1-cont1 a {
+    position: relative;
+    top: 20px;
+}
+
+/*Seccion mainTop2*/
+
+.mainTop2 {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTop2-cont3 {
+    text-align: center;
+}
+
+.mainTop2-cont3 h2{
+    color: var(--azul-oscuro);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 0 25px;
+}
+
+.mainTop2-cont3 p {
+    color: var(--azul-grisaceo-oscuro);
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 2;
+    margin: 0 25px;
+}
+
+.mainTop2-cont4 {
+    margin-top: 30px;
+}
+
+.mainTop2-cont4 p {
+    line-height: 2;
+    font-size: .9rem;
+}
+
+.mainTop2-cont4 p:first-of-type{
+    color: var(--azul-oscuro);
+    font-weight: 700;
+    background-color: var(--rojo-muy-palido);
+    padding: 10px 0;
+    margin: 25px 0 15px 15px;
+    border-radius: 20px 0 0 20px;
+}
+
+.mainTop2-cont4 p:first-of-type span{
+    color: white;
+    background-color: var(--rojo-brillante);
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.mainTop2-cont4 p:nth-child(2) {
+    color: var(--azul-grisaceo-oscuro);
+    padding: 0 15px;
+}
+
+/*Mainbot*/
+
+.mainBot{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainBot h2 {
+    color: var(--azul-oscuro);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 0 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainBot p{
+    color: var(--azul-grisaceo-oscuro);
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 2;
+    margin: 25px;
+    text-align: center;
+}
+.mainBot img {
+    margin-top: 60px;
+    display: flex;
+    height: 70px;
+    width: 70px;
+}
+
+.mainBot #button {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainBot h3{
+    margin-top: 30px;
+    color: var(--azul-oscuro);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*Tarjetas*/
+.tarjeta1{
+    display: none;
+}
+
+
+.tarjeta2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tarjeta2 p {
+    width: 100%;
+}
+
+.IMG {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta3{
+    display: none;
+}
+
+/*Footer*/
+
+footer{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerTop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--rojo-brillante);
+    padding: 100px 16px;
+}
+
+.footerTop h2 {
+    color: var(--variante-gris-claro);
+    width: 100%;
+    font-size: 2.1rem;
+    font-weight: 700;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.footerTop a {
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.footerBot {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    background-color: var(--azul-muy-oscuro);
+    padding: 100px 16px;
+}
+
+.formulario {
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.formulario input  {
+    height: 50px;
+    border-radius: 40px;
+    font-size: .7rem;
+    font-weight: 500;
+    width: 70%;
+}
+
+.formulario a {
+    height: 50px;
+}
+
+
+.fb-cont2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fb-cont2 ul li {
+    padding: 10px;
+}
+
+.fb-cont2 a:link {
+    color: white;
+}
+
+.FRight {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.FRight .fLogo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.FRight .fLogo img{
+    margin-top: 60px;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    
+}
+
+
+.FRight img {
+    height: 35px;
+    width: 35px;
+}
+
+.FRight .fSocial {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.footerBot p {
+    color: var(--azul-grisaceo-oscuro);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+}
+
+.fSocial p {
+    display: none;
+}
+
+
+@media (min-width: 958px){
+
+    /*Comenzamos ajustando el HEADER y sus elementos*/
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 40px 25px;
+        width: 100%;
+        height: 20vh;
+    }
+    
+    header img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3vh;
+        width: 15ch;
+        position: relative;
+        left: 5%;
+    }
+    
+    header .nav{
+        display: block;
+    }
+    
+    header .nav ul li {
+        display: inline;
+        padding: 9px;
+    }
+
+    header .nav ul li:hover {
+        color: rgb(31, 31, 235);
+    }
+
+    header .borange1 {
+        display: inline;
+        background-color: var(--rojo-brillante);
+        color: white;
+        height: 4vh;
+        width: 15ch;
+    }
+    
+    header .button {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        height: 5vh
+    }
+
+    header .button:hover {
+        background-color: var(--azul-oscuro);
+    }
+
+
+
+    header .menu-hamburguesa {
+        display: none;
+    }
+    /*Finalizamos los estilos de HEADER*/
+
+    /*Comenzamos a modificar los estilos del MAIN y sus Elementos*/
+
+    /*Seccion 1*/
+
+    .mainTop1 {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5%;
+    }
+
+    .mainTop1-cont1{
+        display: flex;
+        width: 40%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+
+    .mainTop1-cont1 h1 {
+        display: flex;
+        margin-right: 17%;
+        width: 100%;
+        font-size: 45px;
+        text-align: left;
+    }
+
+    .mainTop1-cont1 p {
+        text-align: left;
+        font-size: medium;
+        width: 75%;
+        margin: 0%;
+    }
+
+    .mainTop1-cont1 .button {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        height: 5vh
+    }
+
+    .mainTop1-cont1 .button:hover{
+        background-color: var(--azul-oscuro);
+    }
+
+    .mainTop1-cont1 a {
+        display: flex;
+        margin-bottom: 10%;
+    }
+
+    .mainTop1-cont2{
+        display: flex;
+        width: 40%;
+        height: auto;
+        margin-right: 10%;
+
+    }
+
+    /*Seccion 2*/
+
+    .mainTop2 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5%;
+    }
+
+        .mainTop2-cont3 {
+        display: flex;
+        width: 35%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-left: 8%;
+    }
+
+    .mainTop2-cont3 h2 {
+        display: flex;
+        width: 100%;
+        font-size: 32px;
+        margin-top: 9%;
+        text-align: left;
+    }
+    .mainTop2-cont3 p {
+        display: flex;
+        margin-bottom: 80%;
+    }
+
+
+    .mainTop2-cont4{
+        display: flex;
+        width: 40%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 10%;
+    }
+
+
+    .mainTop2-cont4 .item span:hover{
+        background-color: var(--azul-oscuro);
+    }
+
+    /*Seccion 3*/
+
+
+    .mainBot{
+        width: 100%;
+        display: flex;
+    }
+
+    .conTarjeta {
+        display: flex;
+    }
+
+    .tarjeta1 {
+        display: block;
+    }
+
+    .tarjeta3 {
+        display: block;
+    }
+
+    .button:hover {
+        background-color: var(--azul-oscuro);
+    }
+
+
+    /*Footer*/
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /*Footer TOP*/
+
+    .footerTop {
+        display: flex;
+        height: 5vh;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 10%;
+    }
+
+    .footerTop h2 {
+        display: flex;
+        text-align: start;
+        width: 40%;;
+    }
+
+    .footerTop a {
+        display: flex;
+    }
+
+    /*Footer BOT*/
+
+    .footerBot {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /*Izquierda*/
+    .FRight {
+        height: auto;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .FRight .fLogo {
+        display: flex;
+        width: 100%;
+        height: 5vh;
+    } 
+        
+    .FRight .fLogo img {
+        display: flex;
+        justify-content: center;
+        margin: 10%;
+    }
+
+    .FRight .fSocial {
+        display: flex;
+        width: 100%;
+        padding: 10%;
+    }
+
+    .FRight .fSocial a {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    /*Centro*/
+    .fb-cont2{
+        width: 30%;
+    }
+
+    .fb-cont2 li:hover{
+        color: var(--rojo-brillante);
+    }
+
+    /*DER*/
+
+    .formulario {
+        display: flex;
+        width: 30%;
+    }
+
+    .formulario input {
+        width: 48%;
+    }
+
+    /*Final*/
+    .footerBot p {
+        position: relative;
+        left: 30%;
+        top: -30%;
+        font-size: small;
+        order: 1;
+    }
+}
+
+
+
+
+/*@media (condicion mi-width: 560px){
+    /* Mis reglas de estilo */
+    /* }
+/**/
